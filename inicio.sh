@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script para bot de Telegram en el que avisa cuando el servidor está iniciado
+
 for line in $(cat token.txt); do TOKEN="$line" ; done
 
 ID="5482488"

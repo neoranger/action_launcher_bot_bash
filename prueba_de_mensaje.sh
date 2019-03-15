@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Script de prueba para envio de mensajes por medio de un bot de Telegram
+
 for line in $(cat token.txt); do TOKEN="$line" ; done
 
 ID="5482488"
